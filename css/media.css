@@ -117,6 +117,15 @@
   .navbar-toggle {
     display: block;
   }
+  .bread-icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1200px;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
   .banner-text h1 {
     font-size: 65px;
   }
