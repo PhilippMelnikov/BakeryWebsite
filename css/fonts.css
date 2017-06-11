@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Alegreya-Bold";
+    src: url("../fonts/alegreya/Alegreya-Bold.eot");
+    src: url("../fonts/alegreya/Alegreya-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/alegreya/Alegreya-Bold.woff") format("woff"),
+    url("../fonts/alegreya/Alegreya-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Alegreya-Regular";
+    src: url("../fonts/alegreya/Alegreya-Regular.eot");
+    src: url("../fonts/alegreya/Alegreya-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/alegreya/Alegreya-Regular.woff") format("woff"),
+    url("../fonts/alegreya/Alegreya-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Scriptina";
+    src: url("../fonts/scriptina/SCRIPTIN.eot");
+    src: url("../fonts/scriptina/SCRIPTIN.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/scriptina/SCRIPTIN.woff") format("woff"),
+    url("../fonts/scriptina/SCRIPTIN.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Scriptina-Alt";
+    src: url("../fonts/scriptina/SCRIPTALT.eot");
+    src: url("../fonts/scriptina/SCRIPALT.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/scriptina/SCRIPTALT.woff") format("woff"),
+    url("../fonts/scriptina/SCRIPTALT.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Proxima-Nova-Regular";
+    src: url("../fonts/proxima-nova/Proxima Nova Regular.eot");
+    src: url("../fonts/proxima-nova/Proxima Nova Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proxima-nova/Proxima Nova Regular.woff") format("woff"),
+    url("../fonts/proxima-nova/Proxima Nova Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Proxima-Nova-Light";
+    src: url("../fonts/proxima-nova/ProximaNovaCond-Light.eot");
+    src: url("../fonts/proxima-nova/ProximaNovaCond-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proxima-nova/ProximaNovaCond-Light.woff") format("woff"),
+    url("../fonts/proxima-nova/ProximaNovaCond-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Proxima-Nova-Thin";
+    src: url("../fonts/proxima-nova/ProximaNovaCond-Thin.eot");
+    src: url("../fonts/proxima-nova/ProximaNovaCond-Thin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/proxima-nova/ProximaNovaCond-Thin.woff") format("woff"),
+    url("../fonts/proxima-nova/ProximaNovaCond-Thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Playfair-Display-Bold";
+    src: url("../fonts/playfair-display-bold/PlayfairDisplay-Bold.eot");
+    src: url("../fonts/playfair-display-bold/PlayfairDisplay-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/playfair-display-bold/PlayfairDisplay-Bold.woff") format("woff"),
+    url("../fonts/playfair-display-bold/PlayfairDisplay-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

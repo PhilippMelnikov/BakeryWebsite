@@ -1,0 +1,336 @@
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .my-nav li {
+    margin: 0 5px;
+  }
+  .art-of-cakes .article {
+    margin-bottom: 0px;
+  }
+  .chef-coock h4 {
+    margin-bottom: 25px;
+    margin-top: 0px;
+  }
+  .chef-coock .citation {
+    margin: 15px auto 0;
+    padding: 15px 40px;
+  }
+  .card .description {
+    padding: 40px 60px;
+  }
+  .slider {
+    padding: 25px 0px;
+    margin-left: 90px;
+  }
+  .menu-card {
+    float: left;
+  }
+  .ingredients {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+  .sandwich-container {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .sandwich {
+    margin: 0px 0px 40px;
+  }
+  .properties .property-item {
+    padding: 20px 60px;
+  }
+  .footer-xs {
+    display: none;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .my-nav .tail {
+    display: none;
+    content: "";
+  }
+  .my-nav li {
+    margin: 0 0px;
+  }
+  .my-nav li a {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .md-cook {
+    display: none;
+  }
+  .sm-cook {
+    display: block;
+    margin-top: 0px;
+  }
+  .art-of-cakes-images {
+    margin-top: -15px;
+  }
+  .perfect-pancakes {
+    overflow-x: hidden;
+    padding: 80px 0;
+  }
+  .cards-container {
+    margin-right: 0px;
+  }
+  .card .description {
+    padding: 25px 25px;
+  }
+  .card .article p {
+    margin-top: 45px;
+  }
+  .card .ready-in {
+    display: none;
+  }
+  .slider {
+    padding: 15px 0px;
+    margin-left: 60px;
+  }
+  .swiper1 {
+    width: 260px;
+  }
+  .sm-time {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menu-card .inner-container {
+    padding: 20px 15px;
+  }
+  .sandwich-container {
+    width: 100%;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .main-nav {
+    display: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .banner-text h1 {
+    font-size: 65px;
+  }
+  .swiper1-container {
+    display: none;
+  }
+  .sm-swiper {
+    display: block;
+  }
+  .md-cards {
+    display: none;
+  }
+  .menu-card-container {
+    float: left;
+    display: block;
+    margin: 0 auto;
+  }
+  .ingredient-item img {
+    width: 80px;
+  }
+  .ingredient-item h1 {
+    font-size: 25px;
+  }
+  .properties {
+    -webkit-transform: translate(-8px, -50%);
+        -ms-transform: translate(-8px, -50%);
+            transform: translate(-8px, -50%);
+  }
+  .properties .property-item {
+    padding: 30px 45px;
+  }
+  .properties .property-item .header {
+    margin-bottom: -10px;
+  }
+  .properties .property-item .time {
+    font-size: 50px;
+  }
+  .footer-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+  .footer-block .logo {
+    line-height: 55px;
+  }
+  .footer-nav li a {
+    font-size: 10px;
+  }
+  .super-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .art-of-cakes-images {
+    display: none;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .banner-text h1 {
+    font-size: 50px;
+  }
+  .recipe {
+    max-width: 390px;
+  }
+  .recipe .article p {
+    margin-top: 30px;
+  }
+  .recipe .image img {
+    width: 100%;
+    height: 260px;
+  }
+  .menu-card {
+    background-position-x: 220px;
+    background-position-y: 130%;
+  }
+  .menu-card h1 {
+    font-size: 40px;
+  }
+  #menu-card-2 {
+    -webkit-transform: scale(0.95) translateX(16px);
+        -ms-transform: scale(0.95) translateX(16px);
+            transform: scale(0.95) translateX(16px);
+    z-index: 90;
+  }
+  #menu-card-3 {
+    -webkit-transform: scale(0.9) translateX(32px);
+        -ms-transform: scale(0.9) translateX(32px);
+            transform: scale(0.9) translateX(32px);
+    z-index: 80;
+  }
+  .ingredient-item {
+    width: 33%;
+  }
+  .ingredient-item h1 {
+    font-size: 18px;
+  }
+  .ingredient-item p {
+    font-size: 12px;
+  }
+  .properties {
+    -webkit-transform: translate(-3px, -50%);
+        -ms-transform: translate(-3px, -50%);
+            transform: translate(-3px, -50%);
+  }
+  .properties .property-item {
+    padding: 5px 25px;
+  }
+  .footer-block {
+    display: none;
+  }
+  .footer-section {
+    padding-bottom: 40px;
+  }
+  .footer-xs {
+    display: block;
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+  }
+  .footer-xs .logo {
+    margin-bottom: 15px;
+  }
+  .footer-xs .footer-nav {
+    border: none;
+    display: block;
+    margin-left: 6px;
+  }
+  .footer-xs .footer-nav li {
+    display: block;
+  }
+  .footer-xs .footer-nav li a {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+/* Double Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+  .banner-text h1 {
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+  .article h1 {
+    font-size: 35px;
+  }
+  .article h2 {
+    font-size: 13px;
+  }
+  .article p {
+    margin-top: 35px;
+  }
+  .recipe {
+    min-height: 560px;
+  }
+  .menu-card {
+    background-position-x: 180px;
+    background-position-y: 135%;
+  }
+  .menu-card h1 {
+    font-size: 35px;
+    line-height: 55px;
+    margin-bottom: 20px;
+  }
+  .ingredient-item {
+    margin-bottom: 40px;
+  }
+  .ingredient-item h1 {
+    font-size: 16px;
+  }
+  .properties .property-item .header {
+    font-size: 14px;
+  }
+  .properties .property-item .time {
+    font-size: 40px;
+  }
+  .properties .property-item .mins {
+    margin-top: -10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .article h2 {
+    font-size: 11px;
+  }
+  .menu-card {
+    background-position-x: -260%;
+    background-position-y: 145%;
+  }
+  .menu-card h1 {
+    font-size: 32px;
+    line-height: 50px;
+    margin-bottom: 18px;
+    margin-top: 45px;
+  }
+  .menu-card p {
+    font-size: 12px;
+  }
+  .read-button {
+    margin-top: 20px;
+  }
+  .ingredient-item h1 {
+    font-size: 15px;
+  }
+}
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
