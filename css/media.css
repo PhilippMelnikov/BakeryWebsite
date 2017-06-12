@@ -316,6 +316,13 @@
   .article h2 {
     font-size: 11px;
   }
+  .banner-text h1 {
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+  .banner-text h2 {
+    font-size: 22px;
+  }
   .menu-card {
     background-position-x: -260%;
     background-position-y: 145%;
